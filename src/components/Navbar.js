@@ -3,7 +3,7 @@ import Logo from "../components/Logo";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import {
-  TwitterIcon,
+  XIcon,
   GithubIcon,
   LinkedInIcon,
   YouTubeIcon,
@@ -41,7 +41,7 @@ const Navbar = () => {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6 mx-3"
         >
           <GithubIcon />
         </motion.a>
@@ -51,7 +51,7 @@ const Navbar = () => {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6 mx-3"
         >
           <YouTubeIcon />
         </motion.a>
@@ -61,7 +61,7 @@ const Navbar = () => {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6 mx-3"
         >
           <LinkedInIcon />
         </motion.a>
@@ -71,9 +71,9 @@ const Navbar = () => {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6 ml-3"
         >
-          <TwitterIcon />
+          <XIcon />
         </motion.a>
       </nav>
 
