@@ -1,9 +1,14 @@
 import React from "react";
-import Image from "next/image";
-import hireMe from "../../public/images/svgs/HireMe.svg";
+import { HireMeIcon } from "./Icons";
 
 const HireMe = () => {
-  return <div>{/* <Image src={hireMe} alt="" /> */}</div>;
+  return (
+    <div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden">
+      <div className="w-48 h-auto flex items-center justify-center relative">
+        <HireMeIcon className={"fill-dark animate-spin"} />
+      </div>
+    </div>
+  );
 };
 
 export default HireMe;
