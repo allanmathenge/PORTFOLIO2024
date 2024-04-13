@@ -24,7 +24,7 @@ export default function Home() {
             <div className="w-1/2">
               <Image
                 src={profilePic}
-                alt="My portfolio img"
+                alt="portfolio img"
                 className="w-full h-auto"
               />
             </div>
