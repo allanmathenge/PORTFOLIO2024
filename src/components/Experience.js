@@ -17,7 +17,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         transition={{ duration: 1.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
-          {position}&nbsp;
+          {position}{" "}
           <a
             href={companyLink}
             target="_blank"

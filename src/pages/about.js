@@ -62,17 +62,13 @@ const About = () => {
                 I&apos;ve been doing this for more than 2 years now, and I love
                 finding new ways to make my clients&apos; ideas come to life.
               </p>
-
-              <div className="border my-6 border-solid border-gray-400 h-[1px] w-full" />
-
+              <br />
               <p className="my-1 font-medium">
                 I firmly believe that design goes beyond mere aesthetics;
                 it&apos;s about problem-solving and crafting intuitive,
                 delightful experiences for users.
               </p>
-
-              <div className="border my-6 border-solid border-gray-400 w-full" />
-
+              <br />
               <p className="font-medium">
                 Whether it&apos;s a website, mobile app, or any digital project,
                 I always bring my dedication to top-notch design and

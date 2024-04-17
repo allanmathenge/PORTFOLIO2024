@@ -28,10 +28,10 @@ const Skills = () => {
         >
           Web&Mobile
         </motion.div>
-        <Skill name="Python" x="-17vw" y="2vw" />
+        <Skill name="Python" x="-19vw" y="3vw" />
         <Skill name="Tailwind CSS" x="-31vw" y="-3vw" />
         <Skill name="CSS" x="-5vw" y="-10vw" />
-        <Skill name="JavaScript" x="20vw" y="2vw" />
+        <Skill name="JavaScript" x="26vw" y="2vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
         <Skill name="NodeJS" x="-20vw" y="-15vw" />
         <Skill name="Kotlin" x="15vw" y="-12vw" />
