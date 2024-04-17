@@ -8,6 +8,7 @@ import { LinkArrow } from "../components/Icons";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import HireMe from "../components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import TransitionEffect from "../components/TransitionEffect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
         <title>Allan Mathenge | Home Page</title>
         <meta name="description" content="Allan Mathenge portfolio home page" />
       </Head>
+      <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           {" "}
