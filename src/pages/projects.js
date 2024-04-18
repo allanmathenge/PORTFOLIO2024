@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
+import chicken from "../../public/images/projects/chicken.jpg";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 
 const FramerImage = motion(Image);
@@ -136,14 +137,12 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Premier Poultry Destination!"
+                img={chicken}
+                summary="This project specialized in the sale of chicken products as the ultimate choice for customers offering top-quality poultry items. It was crafted with care and precision using ReactJs, Bootstrap CSS, NodeJS and MongoDB to ensure efficiency and ultimate user's satisfaction."
+                link="https://mine-j7ov.vercel.app/"
+                github="https://github.com/allanmathenge/MINE"
+                type="Online Poultry market"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
