@@ -125,23 +125,24 @@ const articles = () => {
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="The Power of Programming Excellence with Python"
-              summary="Python Power Unleashed: Elevate Your Code Game! Discover the language of possibilities with an insightful guide. From basics to brilliance, unlock the secrets of Python programming and chart your path to coding mastery."
-              time="9 min read."
-              link="https://allanblogs.netlify.app/python/"
-              img={blogs}
-            />
-            <FeaturedArticle
               title="Building the Future of Web Development with MERN"
-              summary="Discover MERN Mastery: Elevate Your Web Development Game! Unravel the secrets of MongoDB, Express.js, React, and Node.js with a comprehensive guide. From backend to frontend, unlock the full potential of MERN stack development in one go!"
+              summary="Elevate your expertise in web development and unveil the hidden gems of MongoDB, Express.js, React, and Node.js through this all-inclusive handbook. Explore the depths of MERN Stack development seamlessly, from backend intricacies to frontend finesse, all in a single comprehensive journey!"
               time="10 min read"
               link="https://allanblogs.netlify.app/mern-stack-mastery/"
               img={MERN}
             />
 
             <FeaturedArticle
+              title="The Power of Programming Excellence with Python"
+              summary="Embark on a journey through the realm of endless possibilities with this illuminating guide. From fundamentals to advanced techniques, unravel the mysteries of Python programming and pave your way to becoming a coding virtuoso."
+              time="9 min read."
+              link="https://allanblogs.netlify.app/python/"
+              img={blogs}
+            />
+
+            <FeaturedArticle
               title="Cracking the Maze Code of web authentication"
-              summary="Unlocking Secure Gates: Demystifying the Authentication Process. Delve into the world of digital security as I guide you through the intricate maze of user authentication, ensuring your systems remain impenetrable yet user-friendly."
+              summary="Unlock the secrets of authentication and explore the realm of digital security with this guide. Navigate the complex landscape of user authentication, ensuring your systems strike the perfect balance between security and user experience."
               time="12 min read"
               link="https://allanblogs.netlify.app/the-actual-auth-process/"
               img={auath}
