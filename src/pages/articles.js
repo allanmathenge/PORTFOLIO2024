@@ -6,12 +6,9 @@ import { motion, useMotionValue } from "framer-motion";
 import Layout from "../components/Layout";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
-import article3 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import article4 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article6 from "../../public/images/articles/todo list app built using react redux and framer motion.png";
+import blogs from "../../public/images/articles/blogs.jpg";
+import MERN from "../../public/images/articles/MERN.jpg";
+import auath from "../../public/images/articles/auath.jpg";
 
 const FramerImage = motion(Image);
 
@@ -128,21 +125,24 @@ const articles = () => {
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-            Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+              title="The Power of Programming Excellence with Python"
+              summary="Python Power Unleashed: Elevate Your Code Game! Discover the language of possibilities with our insightful guide. From basics to brilliance, unlock the secrets of Python programming and chart your path to coding mastery."
               time="9 min read."
-              link="/"
-              img={article1}
+              link="https://allanblogs.netlify.app/python/"
+              img={blogs}
             />
             <FeaturedArticle
-              title="Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens"
-              summary="Learn how to create stunning loading screens in React with 3 different methods. 
-              Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
-              Improve the user experience."
+              title="Discover MERN Mastery: Elevate Your Web Development Game! Unravel the secrets of MongoDB, Express.js, React, and Node.js with our comprehensive guide. From backend to frontend, unlock the full potential of MERN stack development in one go!"
               time="10 min read"
-              link="/"
-              img={article2}
+              link="https://allanblogs.netlify.app/mern-stack-mastery/"
+              img={MERN}
+            />
+
+            <FeaturedArticle
+              title="Unlocking Secure Gates: Demystifying the Authentication Process. Delve into the world of digital security as we guide you through the intricate maze of user authentication, ensuring your systems remain impenetrable yet user-friendly."
+              time="12 min read"
+              link="https://allanblogs.netlify.app/the-actual-auth-process/"
+              img={auath}
             />
           </ul>
 
@@ -151,31 +151,22 @@ const articles = () => {
           </h2>
           <ul className="">
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="14/08/2023"
-              img={article3}
-              link="/"
+              title="The Power of Programming Excellence with Python"
+              date="2023-08-15"
+              img={blogs}
+              link="https://allanblogs.netlify.app/python/"
             />
-
             <Article
-              title="Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers"
-              date="13/07/2023"
-              img={article4}
-              link="/"
+              title="The comprehensive MERN Guide"
+              date="2023-07-15"
+              img={MERN}
+              link="https://allanblogs.netlify.app/the-actual-auth-process/"
             />
-
             <Article
-              title="Creating An Efficient Modal Component In React Using Hooks And Portals"
-              date="16/09/2022"
-              img={article5}
-              link="/"
-            />
-
-            <Article
-              title="Build A Fabulous Todo List App With React, Redux And Framer-Motion"
-              date="18/01/2023"
-              img={article6}
-              link="/"
+              title="The world of digital security with Google Auth2.0"
+              date="2023-08-1"
+              img={auath}
+              link="https://allanblogs.netlify.app/auth2-0/"
             />
           </ul>
         </Layout>
