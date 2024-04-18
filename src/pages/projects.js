@@ -7,7 +7,13 @@ import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
 import chicken from "../../public/images/projects/chicken.jpg";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import netlifyClone from "../../public/images/projects/netlifyClone.jpg";
+import AiSummarizer from "../../public/images/projects/AiSummarizer.jpg";
+import TikTokClone from "../../public/images/projects/tiktokClone.jpg";
+import AndroidMusicApp from "../../public/images/projects/AndroidMusicApp.jpg";
+import prompts from "../../public/images/projects/prompts.jpg";
+import records from "../../public/images/projects/records.jpg";
+import shop from "../../public/images/projects/shop.jpg";
 
 const FramerImage = motion(Image);
 
@@ -41,7 +47,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           target="_blank"
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm">
+          <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-2xl">
             {title}
           </h2>
         </Link>
@@ -147,64 +153,71 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Netlify clone"
+                img={netlifyClone}
+                link="https://clone-987.netlify.app/"
+                github="https://github.com/allanmathenge/netlify_clone"
+                type="App Clone"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Next Gen Social Craze"
+                img={TikTokClone}
+                link="https://tiktik-clone-gules-mu.vercel.app/?topic=dance"
+                github="https://github.com/allanmathenge/tiktik_clone"
+                type="TikTok clone"
               />
             </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Customer records system"
+                img={records}
+                link="https://allan.onrender.com/"
+                github="https://github.com/allanmathenge/mern_stack"
+                type="Records keeping system"
+              />
+            </div>
+
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="AI Article Summarizer"
+                img={AiSummarizer}
+                summary="Say goodbye to lengthy reads and hello to quick, comprehensive summaries tailored just for you. AI Article Summarizer project created using JavaScript, CSS and React condensed complex content into bite-sized brilliance by copying and pasting the link on the input."
+                link="https://papaya-mochi-52fc61.netlify.app/"
+                github="https://github.com/allanmathenge/ai_summarizer"
+                type="AI article summarizer"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
+                title="Android Music App"
+                img={AndroidMusicApp}
                 link="/"
-                github="/"
+                github="https://github.com/allanmathenge/androidMusicApp"
+                type="Android apps"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="AI Promptopia"
+                img={prompts}
+                link="https://ai-promptopia-qe8tki88s-allanmathenge.vercel.app/"
+                github="https://github.com/allanmathenge/AI_Promptopia"
                 type="Featured Project"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Online Fashion Store"
+                img={shop}
+                link="https://shop-6.vercel.app/"
+                github="https://github.com/allanmathenge/shop"
+                type="Online Store"
               />
             </div>
           </div>
