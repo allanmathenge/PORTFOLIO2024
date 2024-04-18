@@ -126,20 +126,22 @@ const articles = () => {
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               title="The Power of Programming Excellence with Python"
-              summary="Python Power Unleashed: Elevate Your Code Game! Discover the language of possibilities with our insightful guide. From basics to brilliance, unlock the secrets of Python programming and chart your path to coding mastery."
+              summary="Python Power Unleashed: Elevate Your Code Game! Discover the language of possibilities with an insightful guide. From basics to brilliance, unlock the secrets of Python programming and chart your path to coding mastery."
               time="9 min read."
               link="https://allanblogs.netlify.app/python/"
               img={blogs}
             />
             <FeaturedArticle
-              title="Discover MERN Mastery: Elevate Your Web Development Game! Unravel the secrets of MongoDB, Express.js, React, and Node.js with our comprehensive guide. From backend to frontend, unlock the full potential of MERN stack development in one go!"
+              title="Building the Future of Web Development with MERN"
+              summary="Discover MERN Mastery: Elevate Your Web Development Game! Unravel the secrets of MongoDB, Express.js, React, and Node.js with a comprehensive guide. From backend to frontend, unlock the full potential of MERN stack development in one go!"
               time="10 min read"
               link="https://allanblogs.netlify.app/mern-stack-mastery/"
               img={MERN}
             />
 
             <FeaturedArticle
-              title="Unlocking Secure Gates: Demystifying the Authentication Process. Delve into the world of digital security as we guide you through the intricate maze of user authentication, ensuring your systems remain impenetrable yet user-friendly."
+              title="Cracking the Maze Code of web authentication"
+              summary="Unlocking Secure Gates: Demystifying the Authentication Process. Delve into the world of digital security as I guide you through the intricate maze of user authentication, ensuring your systems remain impenetrable yet user-friendly."
               time="12 min read"
               link="https://allanblogs.netlify.app/the-actual-auth-process/"
               img={auath}
@@ -157,7 +159,7 @@ const articles = () => {
               link="https://allanblogs.netlify.app/python/"
             />
             <Article
-              title="The comprehensive MERN Guide"
+              title=" Your Complete Guide to Building Dynamic Web Apps with MERN"
               date="2023-07-15"
               img={MERN}
               link="https://allanblogs.netlify.app/the-actual-auth-process/"
